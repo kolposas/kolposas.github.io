@@ -1,0 +1,155 @@
+
+
+
+body {
+    width: 1920px;
+    height: 1320px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.header {
+ position: fixed;
+ width: 100%;
+ height: 80px;
+ background: #333;
+ z-index: 99;
+
+}
+.logov {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 10px;
+}
+
+.logo{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+.img {
+       float: right;
+       height: 100%;
+       width: 80px;
+       vertical-align: middle;
+       display: table-cell;
+}
+.viskas {
+    background-image: url("back2.jpg");
+    width: 100%;
+    height: 100%;
+    
+}
+
+.card {
+    position: absolute;
+    border-radius: 50%;
+    width: 185px;
+    height: 185px;
+    background-size: cover;
+    background-image: url("krist1.jpg")
+}
+
+.card1 {
+    position: absolute;
+    border-radius: 50%;
+    width: 185px;
+    height: 185px;
+    background-size: cover;
+    background-image: url("taj1.jpg")
+}
+.card2 {
+    position: absolute;
+    border-radius: 50%;
+    width: 185px;
+    height: 185px;
+    background-size: cover;
+    background-image: url("siena.jpg")
+}
+.card3 {
+    position: absolute;
+    border-radius: 50%;
+    width: 185px;
+    height: 185px;
+    background-size: cover;
+    background-image: url("picc1.jpg")
+}
+.card4 {
+    position: absolute;
+    border-radius: 50%;
+    width: 185px;
+    height: 185px;
+    background-size: cover;
+    background-image: url("petra1.jpg")
+}
+.card5 {
+    position: absolute;
+    border-radius: 50%;
+    width: 185px;
+    height: 185px;
+    background-size: cover;
+    background-image: url("itza1.jpg")
+}
+.card6 {
+    position: absolute;
+    border-radius: 50%;
+    width: 185px;
+    height: 185px;
+    background-size: cover;
+    background-image: url("coll1.jpg")
+}
+.card:hover {  width:290px;height: 290px;}
+.card1:hover {  width:290px;height: 290px;}
+.card2:hover {  width:290px;height: 290px;}
+.card3:hover {  width:290px;height: 290px;}
+.card4:hover {  width:290px;height: 290px;}
+.card5:hover {  width:290px;height: 290px;}
+.card6:hover {  width:290px;height: 290px;}
+
+.hello:hover .text {
+
+visibility: visible;
+position: relative;
+top: 25%;
+left: 33%;
+color: rgb(0, 0, 0);
+font-size: 12px;
+position: absolute;
+vertical-align: middle;
+color: crimson;
+}
+.text {
+
+    visibility: hidden;
+}
+
+.info {
+    position: absolute;
+    width: 750px;
+    height: 750px;
+    background-size: cover;
+    background-color: #333;
+}
+.image {
+    position: absolute;
+    width: 425px;
+    height: 425px;
+    background-size: cover;
+    background-image: url("komp.jpg")
+}
+.infot {
+    color: crimson;
+    text-align: left;
+}
+.title {
+    text-align: center;
+    font-size: 26px;
+    color: crimson;
+}
+
